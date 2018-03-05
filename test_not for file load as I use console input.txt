@@ -1,0 +1,63 @@
+run:
+Please enter your commands below: (put EXIT if you want to exit)
+
+go
+Your input command is not valid.
+
+bad
+Your input command is not valid.
+
+
+No valid input detected. Please input your commands: 
+
+report
+No valid place detected. Please input at least one place: 
+
+
+place 0, -1, north
+Your input command is not valid.
+
+place 0,01,south
+Your input command is not valid.
+
+place0,0,north
+Your input command is not valid.
+
+place 0,0,north
+
+move
+
+report
+Output: 0,1,NORTH
+
+PLACE 0,0,north
+
+left
+
+report
+Output: 0,0,WEST
+
+place 1, 2,east
+
+move
+
+move
+
+left
+
+move
+
+report
+Output: 3,3,NORTH
+
+place 5,5,north
+
+move
+Action prevented as the robot will fall out of the table
+
+exit
+Are you sure to exit? Y/N
+y
+
+Thank you for playing the robot! Bye!
+BUILD SUCCESSFUL (total time: 2 minutes 46 seconds)
